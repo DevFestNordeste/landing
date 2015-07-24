@@ -3,10 +3,10 @@
 */
 
 .accent {
-  background-color: #FFC107;
+  background-color: #436EA1;
 }
 .accent:hover {
-  background-color: #FFEB3B;
+  background-color: #1B2F6A;
 }
 .secondary {
   background-color: #F44336;
@@ -106,14 +106,15 @@ img {
 .wraper {
   margin: 0 auto;
   display: inline-block !important;
-  margin-top: 40px;
+  margin-top: 35px;
   max-width: 700px;
+  padding-left: 53px;
 }
 .btn {
   display: inline-block;
   height: 3rem;
   margin-bottom: 15px;
-  padding: 0 2.5rem;
+  padding: 0 1.5rem;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -122,7 +123,7 @@ img {
   text-transform: uppercase;
   border: none;
   -webkit-tap-highlight-color: transparent;
-  margin-left: 47px;
+  margin-left: 30px;
   text-decoration: none;
   color: #FFF;
   text-align: center;
@@ -134,14 +135,14 @@ img {
   transition: 0.2s ease-out;
   cursor: pointer;
 }
-.organizers{
+.organizers {
   color: #808080;
 }
-.organizers h2{
+.organizers h2 {
   font-weight: 400;
 }
 .organizers ul li {
-  display:  inline-block;
+  display: inline-block;
   margin-left: 10px;
   font-size: 18px;
 }

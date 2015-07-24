@@ -1,7 +1,8 @@
 /*
 / Colors
 */
-.accent{
+
+.accent {
   background-color: #FFC107;
 }
 .accent:hover {
@@ -13,8 +14,6 @@
 .secondary:hover {
   background-color: #D32F2F;
 }
-
-
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -110,27 +109,39 @@ img {
   max-width: 700px;
 }
 .btn {
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  font-family: Arial;
-  color: #ffffff;
-  text-transform: capitalize;
-  font-size: 28px;
-  padding: 18px;
-  margin-left: 45px;
-  max-width: 500px;
-  text-decoration: none;
   display: inline-block;
-}
-.btn:hover {
+  height: 3rem;
+  margin-bottom: 15px;
+  padding: 0 2.5rem;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  line-height: 3rem;
+  text-transform: uppercase;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: 47px;
   text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 0.8px;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  cursor: pointer;
 }
 
 /*RESPONSIVE*/
 
 @media (max-width: 630px) {
   .container {
+    width: 100%;
+  }
+  .btn {
+    display: block;
     width: 100%;
   }
   .box-form {

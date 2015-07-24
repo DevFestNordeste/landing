@@ -146,6 +146,10 @@ img {
   margin-left: 10px;
   font-size: 18px;
 }
+.organizers a {
+  color: #808080;
+  text-decoration: underline;
+}
 
 /*RESPONSIVE*/
 

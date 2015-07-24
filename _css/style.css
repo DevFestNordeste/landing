@@ -1,111 +1,140 @@
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+/*
+/ Colors
+*/
+.accent{
+  background-color: #FFC107;
+}
+.accent:hover {
+  background-color: #FFEB3B;
+}
+.secondary {
+  background-color: #F44336;
+}
+.secondary:hover {
+  background-color: #D32F2F;
 }
 
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
-
-.button{
-	background-color:#3A539B !important;
+.button {
+  background-color: #3A539B !important;
 }
-
 .section-header {
-    width: 100%;
-    min-height: 800px;
-    background: url(../_img/bg.jpg) top center no-repeat;
-    display: inline-block;
+  width: 100%;
+  min-height: 800px;
+  background: url(../_img/bg.jpg) top center no-repeat;
+  display: inline-block;
 }
-
 .container {
-    width: 615px;
-    margin: 0 auto;
+  width: 615px;
+  margin: 0 auto;
 }
-
 .header-info {
-    margin: 35px auto 40px;
-    display: block;
+  margin: 35px auto 40px;
+  display: block;
 }
-
 .box-form {
-    width: 460px;
-    margin: 0 auto;
+  width: 460px;
+  margin: 0 auto;
 }
-
 .box-form .input-group {
-    position: relative;
+  position: relative;
 }
-
-.box-form input[type="text"],
-.box-form input[type="email"] {
-    width: 100%;
-    background: white;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
-    -ms-border-radius: 4px;
-    padding: 15px 30px;
-    font-size: 24px;
-    color: #0096be;
+.box-form input[type="text"], .box-form input[type="email"] {
+  width: 100%;
+  background: white;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 24px;
+  color: #0096be;
 }
-
 .box-form input[type="submit"] {
-    position: absolute;
-    width: 70px;
-    height: 40px;
-    text-align: center;
-    background: #0096be;
-    color: white;
-    font-size: 17px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
-    -ms-border-radius: 4px;
-    top: 50%;
-    right: 10px;
-    margin-top: -20px;
-    cursor: pointer;
-    -webkit-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  background: #0096be;
+  color: white;
+  font-size: 17px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  top: 50%;
+  right: 10px;
+  margin-top: -20px;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
-
-.box-form input[type="submit"]:hover,
-.box-form input[type="submit"]:focus {
-    background: #0188A0;
+.box-form input[type="submit"]:hover, .box-form input[type="submit"]:focus {
+  background: #0188A0;
 }
-
 .section-footer {
-    text-align: center;
-    padding: 60px 0;
+  text-align: center;
+  padding: 60px 0;
+}
+.footer-text {
+  font-size: 16px;
+  margin-bottom: 45px;
+  font-size: 24px;
+  color: #808080;
+  line-height: 30px;
+}
+.wraper {
+  margin: 0 auto;
+  display: inline-block !important;
+  margin-top: 40px;
+  max-width: 700px;
+}
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 28px;
+  padding: 18px;
+  margin-left: 45px;
+  max-width: 500px;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover {
+  text-decoration: none;
 }
 
-.footer-text {
-    font-size: 16px;
-    margin-bottom: 45px;
-    font-size: 24px;
-    color: #808080;
-    line-height: 30px;
-}
 /*RESPONSIVE*/
 
 @media (max-width: 630px) {
-    .container {
-        width: 100%;
-    }
-    .box-form {
-        width: 100%;
-        padding: 0 15px;
-    }
+  .container {
+    width: 100%;
+  }
+  .box-form {
+    width: 100%;
+    padding: 0 15px;
+  }
 }

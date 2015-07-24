@@ -134,6 +134,17 @@ img {
   transition: 0.2s ease-out;
   cursor: pointer;
 }
+.organizers{
+  color: #808080;
+}
+.organizers h2{
+  font-weight: 400;
+}
+.organizers ul li {
+  display:  inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+}
 
 /*RESPONSIVE*/
 
